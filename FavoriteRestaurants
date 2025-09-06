@@ -5,9 +5,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Favortite Restaurants</title>
     <link rel="stylesheet" href="styles.css"> 
+<style>
+  body {
+    background-color: beige;
+  }
+  h1 {font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  footer p {
+    margin:0%
+  }
+  hr {
+    height: 3px;
+    background-color:brown
+  }
+</style>
 </head>
 <body>
-  <h1>My Favorite Restaurants</h1>
-
+  <nav>
+        <ul style="list-style:none; margin:0; padding:0; display:flex; gap:10px;">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Cafes</a></li>
+            <li><a href="#">Adventures</a></li>
+            <li><a href="#">More</a></li>
+        </ul>
+    </nav>
+  <hr>
+  <h1>The Best of Saipan's Restaurants</h1>
+  <p>What is life without food? Saipan offers a wide variety of restaurants from Chamorro, American, Filipino, Thai, Chinese, Korean Cusines and so much more. Please see my top recommeded restaurants to try out when you are visiting our wonderful island!</p>
+<div>
+    <h2>Top 5 Restaurants</h2>
+  <ol>
+    <li>Angry Penne</li>
+    <li>Kanto 10</li>
+    <li>The Hut</li>
+    <li>Guang Zhao</li>
+    <li>Surf's Club</li>
+  </ol>
+<article>
+  <h3>Angry Penne</h3>
+  <img src="images/menu.jpg" alt="Angry Penne Shrimp Pasta">
+  <p>Angry Penne is an Italian restaurant located in Garapan. It offers a variety of dishes from pastas, pizza, and desserts as well. The atmosphere there is also very relaxing and the customer service is always top-notch.</p>
+  <h4>What I Love:</h4>
+  <ul>
+    <li>Their Penne Aribiata</li>
+    <li>Their Margarita Pizza</li>
+    <li>The friendly customer service</li>
+  </ul>
+</article>
+  <hr>
+  <footer>
+  <p>Margareth Tawagon</p>
+  <p><a href="margareth.tawagon@my.marianas.edu">margareth.tawagon@my.marianas.edu</a></p>
+  <p>(123) 456-7890</p>
+</footer>
 </body>
 </html>
